@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 當按鈕處於按下狀態时，使用綠色背景 -->
+    <item android:state_pressed="true" android:state_enabled="true" android:drawable="@color/colorGreen" />
+    <!-- 預設情況下，使用深灰色背景 -->
+    <item android:drawable="@color/colorDarkGray" />
+</selector>
